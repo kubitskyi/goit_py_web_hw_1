@@ -267,7 +267,7 @@ class TerminalInterface(Interface):
     def help_func(*args, **kwargs):
         contacts = kwargs['contacts']
         return ''' 
-                
+                Text
                 ''', contacts
 
 # список функцій
@@ -289,7 +289,7 @@ MODES = {}
 MODES.update(NOTE_MODES) 
 MODES.update(PHONE_MODES)
 MODES.update(INTERFACE_MODES)
-# print(MODES)
+print(MODES)
 
 
 def handler(text):
